@@ -46,9 +46,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background Back
+    uniqueID: 2377044735
+    locked: 0
+  - name: Background Blood
+    uniqueID: 135184103
+    locked: 0
+  - name: Background Front
+    uniqueID: 2239087851
+    locked: 0
   - name: Far1
     uniqueID: 4144019291
     locked: 0
   - name: Near1
     uniqueID: 745101371
+    locked: 0
+  - name: Near2
+    uniqueID: 2262136577
     locked: 0
