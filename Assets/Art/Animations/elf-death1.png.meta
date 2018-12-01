@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: 92ea505140bae234e9356dec848d6765
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: elf-death1
+    21300002: elfdeath1_000
+    21300004: elfdeath1_001
+    21300006: elfdeath1_002
+    21300008: elfdeath1_003
+    21300010: elfdeath1_004
+    21300012: elfdeath1_005
+    21300014: elfdeath1_006
+    21300016: elfdeath1_007
+    21300018: elfdeath1_008
+    21300020: elfdeath1_009
+    21300022: elfdeath1_010
+    21300024: elfdeath1_011
+    21300026: elfdeath1_012
+    21300028: elfdeath1_013
+    21300030: elfdeath1_014
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elfdeath1_000
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 871
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 89, y: -84.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_001
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 445
+        width: 70
+        height: 77
+      alignment: 9
+      pivot: {x: 0.44285715, y: 0.512987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 424
+        width: 84
+        height: 98
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.43367347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_003
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 588
+        width: 130
+        height: 130
+      alignment: 9
+      pivot: {x: 0.41538462, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_004
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 720
+        width: 150
+        height: 152
+      alignment: 9
+      pivot: {x: 0.54, y: 0.52960527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_005
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 874
+        width: 153
+        height: 149
+      alignment: 9
+      pivot: {x: 0.4379085, y: 0.47986576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_006
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 430
+        width: 162
+        height: 156
+      alignment: 9
+      pivot: {x: 0.45061728, y: 0.48397437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_007
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 523
+        width: 168
+        height: 164
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.47865853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 524
+        width: 165
+        height: 162
+      alignment: 9
+      pivot: {x: 0.4969697, y: 0.50308645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_009
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 689
+        width: 171
+        height: 165
+      alignment: 9
+      pivot: {x: 0.50292397, y: 0.5121212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 856
+        width: 177
+        height: 167
+      alignment: 9
+      pivot: {x: 0.49717513, y: 0.51197606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_011
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 856
+        width: 175
+        height: 167
+      alignment: 9
+      pivot: {x: 0.50857145, y: 0.51197606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 688
+        width: 175
+        height: 166
+      alignment: 9
+      pivot: {x: 0.50857145, y: 0.51506025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_013
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 871
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 89, y: -84.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: elfdeath1_014
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 871
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 89, y: -84.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
