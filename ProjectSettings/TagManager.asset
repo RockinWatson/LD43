@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Far1
+    uniqueID: 4144019291
+    locked: 0
+  - name: Near1
+    uniqueID: 745101371
+    locked: 0
