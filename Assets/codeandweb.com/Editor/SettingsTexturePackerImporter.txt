@@ -3,12 +3,15 @@ importPivots: 1
 tpsheetFileNames:
 - Assets/Art/Animations/elf-1.tpsheet
 - Assets/Art/Animations/elf-death1.tpsheet
+- Assets/Art/Animations/trapsandlights1.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
 - Assets/Art/Animations/elf-1.png
 - Assets/Art/Animations/elf-death1.png
+- Assets/Art/Animations/trapsandlights1.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
 - 
 - 
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
