@@ -1,0 +1,527 @@
+fileFormatVersion: 2
+guid: 6e02676ee25b62a43adcfcb76326e6d6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blooddrips
+    21300002: blood-below_000
+    21300004: blood-below_001
+    21300006: blood-below_002
+    21300008: blood-below_003
+    21300010: blood-below_004
+    21300012: blood-below_005
+    21300014: blood-below_006
+    21300016: blood-below_007
+    21300018: blood-below_008
+    21300020: blood-below_009
+    21300022: blood-below_010
+    21300024: blood-below_011
+    21300026: blood-below_012
+    21300028: blood-below_013
+    21300030: blood-below_014
+    21300032: blood-tankdrip_000
+    21300034: blood-tankdrip_001
+    21300036: blood-tankdrip_002
+    21300038: blood-tankdrip_003
+    21300040: blood-tankdrip_004
+    21300042: blood-tankdrip_005
+    21300044: blood-tankdrip_006
+    21300046: blood-tankdrip_007
+    21300048: blood-tankdrip_008
+    21300050: blood-tankdrip_009
+    21300052: blood-tankdrip_010
+    21300054: blood-tankdrip_011
+    21300056: blood-tankdrip_012
+    21300058: blood-tankdrip_013
+    21300060: blood-tankdrip_014
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blood-below_000
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 986
+        width: 174
+        height: 37
+      alignment: 9
+      pivot: {x: 0.49425286, y: -0.6081081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 818
+        width: 173
+        height: 73
+      alignment: 9
+      pivot: {x: 0.4913295, y: 0.23972602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_002
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 874
+        width: 173
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4913295, y: 0.48636365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 715
+        width: 172
+        height: 101
+      alignment: 9
+      pivot: {x: 0.49418604, y: 0.44059405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 604
+        width: 170
+        height: 109
+      alignment: 9
+      pivot: {x: 0.49411765, y: 0.54587156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_005
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 766
+        width: 172
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.5424528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_006
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 664
+        width: 171
+        height: 100
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 893
+        width: 173
+        height: 89
+      alignment: 9
+      pivot: {x: 0.4913295, y: 0.66853935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 984
+        width: 175
+        height: 39
+      alignment: 9
+      pivot: {x: 0.50285715, y: 1.3717948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 984
+        width: 175
+        height: 39
+      alignment: 9
+      pivot: {x: 0.50285715, y: 1.3717948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 984
+        width: 175
+        height: 39
+      alignment: 9
+      pivot: {x: 0.50285715, y: 1.3717948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 984
+        width: 175
+        height: 39
+      alignment: 9
+      pivot: {x: 0.50285715, y: 1.3717948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 984
+        width: 175
+        height: 39
+      alignment: 9
+      pivot: {x: 0.50285715, y: 1.3717948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 984
+        width: 175
+        height: 39
+      alignment: 9
+      pivot: {x: 0.50285715, y: 1.3717948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-below_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 984
+        width: 175
+        height: 39
+      alignment: 9
+      pivot: {x: 0.50285715, y: 1.3717948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_000
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 200
+        width: 86
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5406977, y: -11.217949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_001
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 329
+        width: 90
+        height: 111
+      alignment: 9
+      pivot: {x: 0.51666665, y: -3.2297297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_002
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 390
+        width: 91
+        height: 150
+      alignment: 9
+      pivot: {x: 0.510989, y: -1.9766667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 413
+        width: 91
+        height: 189
+      alignment: 9
+      pivot: {x: 0.510989, y: -1.2407408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_004
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 542
+        width: 92
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5054348, y: -0.7599119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_005
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 771
+        width: 92
+        height: 252
+      alignment: 9
+      pivot: {x: 0.5054348, y: -0.43849206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_006
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 442
+        width: 92
+        height: 220
+      alignment: 9
+      pivot: {x: 0.49456522, y: -0.22045454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_007
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 352
+        width: 91
+        height: 188
+      alignment: 9
+      pivot: {x: 0.489011, y: 0.07180851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_008
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 232
+        width: 90
+        height: 156
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.48397437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 207
+        width: 86
+        height: 116
+      alignment: 9
+      pivot: {x: 0.49418604, y: 1.1163793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_010
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 249
+        width: 87
+        height: 101
+      alignment: 9
+      pivot: {x: 0.48850575, y: 2.0643563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_011
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 241
+        width: 87
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4770115, y: 3.3430233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 325
+        width: 88
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4715909, y: 4.4360466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_013
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 179
+        width: 86
+        height: 68
+      alignment: 9
+      pivot: {x: 0.45930234, y: 6.727941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: blood-tankdrip_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 166
+        width: 85
+        height: 39
+      alignment: 9
+      pivot: {x: 0.45294118, y: 12.217949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
