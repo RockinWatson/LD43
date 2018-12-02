@@ -7,7 +7,7 @@ public class Trap : MonoBehaviour {
     private SpriteRenderer _sprite = null;
     private Rigidbody2D _rb = null;
 
-    private void Awake()
+    virtual protected void Awake()
     {
         _sprite = this.GetComponent<SpriteRenderer>();
         _rb = this.GetComponent<Rigidbody2D>();
