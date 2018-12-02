@@ -6,7 +6,7 @@ public class Elf : MonoBehaviour {
     public GameObject ElfExit;
     public float Speed;
 
-    private bool _moveRight = true;
+    private bool _moveRight = false;
     private SpriteRenderer _sprtRend;
 
     public GameObject AnimDeath;
@@ -21,12 +21,12 @@ public class Elf : MonoBehaviour {
 
         if (_moveRight)
         {
-            _sprtRend.flipX = true;
+            _sprtRend.flipX = false;
             transform.Translate(Vector2.right * Time.deltaTime * Speed);
         }
         else
         {
-            _sprtRend.flipX = false;
+            _sprtRend.flipX = true;
             transform.Translate(Vector2.left * Time.deltaTime * Speed);
         }
 	}
@@ -63,6 +63,7 @@ public class Elf : MonoBehaviour {
         if (collision.gameObject.tag == "DeadElf")
         {
             ElfExplode(transform.position);
+            ExitLevelController.Get().IncreaseScore();
             gameObject.SetActive(false);
         }
     }
