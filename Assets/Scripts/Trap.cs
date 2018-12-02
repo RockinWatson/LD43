@@ -35,7 +35,7 @@ public class Trap : MonoBehaviour {
         _rb.simulated = false;
     }
 
-    private void Activate()
+    virtual protected void Activate()
     {
         //@TODO: Turn on full alpha.
         Color preColor = _sprite.color;
