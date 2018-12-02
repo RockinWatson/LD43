@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1037226951046770}
+  m_IsPrefabParent: 1
+--- !u!1 &1037226951046770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4476452512155126}
+  - component: {fileID: 114462538842177940}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4476452512155126
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037226951046770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.3871498, y: 3.971197, z: -0.10941486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114462538842177940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037226951046770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30ad52635266404ea6c6a9514ebf584, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trapPrefabs:
+  - {fileID: 1347319479654374, guid: 89b8e4bf65d0b4bc4964828c5b7bda75, type: 2}
+  - {fileID: 1812864812619036, guid: d9e58b6b8cdc94d879d1f18a565407f7, type: 2}
+  - {fileID: 1723423967419708, guid: e45aed20feeb14c50b3f5d2344c17e14, type: 2}
+  - {fileID: 1224588291432596, guid: ec63b1f25880b73468de196ec151e2e7, type: 2}
+  - {fileID: 1710000059199246, guid: 742f40fdb20994353a4941f83141c6d3, type: 2}
+  - {fileID: 1207113920258978, guid: c4dfae772e90cb14aade1234e2d0de13, type: 2}
+  - {fileID: 1982932069951140, guid: baeec8239c37b42c59518effe0b0c426, type: 2}
