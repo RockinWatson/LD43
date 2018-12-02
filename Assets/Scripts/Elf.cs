@@ -7,16 +7,26 @@ public class Elf : MonoBehaviour {
     public float Speed;
 
     private bool _moveRight = true;
+    private SpriteRenderer _sprtRend;
+
+    public GameObject AnimDeath;
+
+    private void Awake()
+    {
+        _sprtRend = GetComponent<SpriteRenderer>();
+    }
 
     // Update is called once per frame
-    void Update () {
+    void Update () {     
 
         if (_moveRight)
         {
+            _sprtRend.flipX = true;
             transform.Translate(Vector2.right * Time.deltaTime * Speed);
         }
         else
         {
+            _sprtRend.flipX = false;
             transform.Translate(Vector2.left * Time.deltaTime * Speed);
         }
 	}
@@ -35,19 +45,24 @@ public class Elf : MonoBehaviour {
         {
             _moveRight = SetRandLefRight(0.5f);
         }
-        if (collision.gameObject.tag == "Elf")
-        {
-            if (_moveRight)
-            {
-                _moveRight = false;
-            }
-            else
-            {
-                _moveRight = true;
-            }
-        }
+        //if (collision.gameObject.tag == "Elf")
+        //{
+        //    if (_moveRight)
+        //    {
+        //        _moveRight = false;
+        //    }
+        //    else
+        //    {
+        //        _moveRight = true;
+        //    }
+        //}
         if (collision.gameObject.tag == "ElfExit")
         {
+            gameObject.SetActive(false);
+        }
+        if (collision.gameObject.tag == "DeadElf")
+        {
+            ElfExplode(transform.position);
             gameObject.SetActive(false);
         }
     }
@@ -55,5 +70,10 @@ public class Elf : MonoBehaviour {
     private bool SetRandLefRight(float chanceOfSuccess)
     {
         return Random.value < chanceOfSuccess;
+    }
+
+    private void ElfExplode(Vector3 pos) {
+        GameObject explode = Instantiate(AnimDeath);
+        explode.transform.position = pos;
     }
 }
