@@ -13,4 +13,11 @@ public class Blocker : Trap {
 	void Update () {
 		
 	}
+
+    protected override void Activate()
+    {
+        base.Activate();
+
+        this.tag = "Untagged";
+    }
 }
