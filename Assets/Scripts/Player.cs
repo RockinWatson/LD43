@@ -92,6 +92,7 @@ public class Player : MonoBehaviour {
             _trapPlacement.Place();
 
             _trapPlacement = null;
+            _trapPlacementIndex = -1;
         }
     }
 }
