@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 95455888311604708}
   - component: {fileID: 61744870088698712}
   - component: {fileID: 114024100189656222}
+  - component: {fileID: 50494724801908282}
   m_Layer: 0
   m_Name: Tar
   m_TagString: DeadElf
@@ -43,6 +44,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50494724801908282
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1812864812619036}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61744870088698712
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -55,7 +76,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016268194, y: -0.3402751}
+  m_Offset: {x: 0, y: -0.28}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 1.5}
@@ -66,7 +87,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7278341, y: 1.1284953}
+  m_Size: {x: 1.26, y: 0.28000003}
   m_EdgeRadius: 0
 --- !u!95 &95455888311604708
 Animator:
