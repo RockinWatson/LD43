@@ -1,0 +1,547 @@
+fileFormatVersion: 2
+guid: 9cd1e5110c1017b4e93145040a070231
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: santaur-swords
+    21300002: santaur-swords_000
+    21300004: santaur-swords_001
+    21300006: santaur-swords_002
+    21300008: santaur-swords_003
+    21300010: santaur-swords_004
+    21300012: santaur-swords_005
+    21300014: santaur-swords_006
+    21300016: santaur-swords_007
+    21300018: santaur-swords_008
+    21300020: santaur-swords_009
+    21300022: santaur-swords_010
+    21300024: santaur-swords_011
+    21300026: santaur-swords_012
+    21300028: santaur-swords_013
+    21300030: santaur-swords_014
+    21300032: santaur-swords_015
+    21300034: santaur-swords_016
+    21300036: santaur-swords_017
+    21300038: santaur-swords_018
+    21300040: santaur-swords_019
+    21300042: santaur-swords_020
+    21300044: santaur-swords_021
+    21300046: santaur-swords_022
+    21300048: santaur-swords_023
+    21300050: santaur-swords_024
+    21300052: santaur-swords_025
+    21300054: santaur-swords_026
+    21300056: santaur-swords_027
+    21300058: santaur-swords_028
+    21300060: santaur-swords_029
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: santaur-swords_000
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2969
+        width: 399
+        height: 361
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.5360111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_001
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 3362
+        width: 412
+        height: 357
+      alignment: 9
+      pivot: {x: 0.48058254, y: 0.5280112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_002
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 3731
+        width: 413
+        height: 364
+      alignment: 9
+      pivot: {x: 0.49394673, y: 0.5315934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3351
+        width: 415
+        height: 371
+      alignment: 9
+      pivot: {x: 0.49156627, y: 0.5188679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_004
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 3332
+        width: 409
+        height: 376
+      alignment: 9
+      pivot: {x: 0.49388754, y: 0.5119681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_005
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 3358
+        width: 412
+        height: 371
+      alignment: 9
+      pivot: {x: 0.49271846, y: 0.5188679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_006
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 3721
+        width: 414
+        height: 374
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5013369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3724
+        width: 417
+        height: 371
+      alignment: 9
+      pivot: {x: 0.4964029, y: 0.51078165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_008
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3710
+        width: 416
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_009
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2625
+        width: 392
+        height: 342
+      alignment: 9
+      pivot: {x: 0.5382653, y: 0.5511696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_010
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 3384
+        width: 371
+        height: 357
+      alignment: 9
+      pivot: {x: 0.5579515, y: 0.50560224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_011
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 2226
+        width: 357
+        height: 382
+      alignment: 9
+      pivot: {x: 0.57983196, y: 0.5039267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_012
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 2240
+        width: 348
+        height: 385
+      alignment: 9
+      pivot: {x: 0.59770113, y: 0.4896104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_013
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1494
+        width: 338
+        height: 385
+      alignment: 9
+      pivot: {x: 0.5857988, y: 0.4948052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_014
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1846
+        width: 339
+        height: 378
+      alignment: 9
+      pivot: {x: 0.57522124, y: 0.49603173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1493
+        width: 332
+        height: 381
+      alignment: 9
+      pivot: {x: 0.5692771, y: 0.4895013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_016
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 3743
+        width: 376
+        height: 352
+      alignment: 9
+      pivot: {x: 0.52925533, y: 0.5355114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2637
+        width: 397
+        height: 340
+      alignment: 9
+      pivot: {x: 0.49118388, y: 0.56911767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_018
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1881
+        width: 356
+        height: 365
+      alignment: 9
+      pivot: {x: 0.5702247, y: 0.5383562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_019
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 2213
+        width: 348
+        height: 384
+      alignment: 9
+      pivot: {x: 0.545977, y: 0.51171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_020
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 2599
+        width: 359
+        height: 377
+      alignment: 9
+      pivot: {x: 0.54317546, y: 0.52122015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_021
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 3005
+        width: 364
+        height: 377
+      alignment: 9
+      pivot: {x: 0.54395604, y: 0.52122015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1876
+        width: 380
+        height: 381
+      alignment: 9
+      pivot: {x: 0.51578945, y: 0.515748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2259
+        width: 387
+        height: 376
+      alignment: 9
+      pivot: {x: 0.50645995, y: 0.5226064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_024
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2248
+        width: 387
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_025
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 2627
+        width: 395
+        height: 376
+      alignment: 9
+      pivot: {x: 0.49367088, y: 0.5226064}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_026
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2610
+        width: 394
+        height: 381
+      alignment: 9
+      pivot: {x: 0.48730963, y: 0.515748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_027
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 2978
+        width: 396
+        height: 378
+      alignment: 9
+      pivot: {x: 0.47727272, y: 0.51984125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2979
+        width: 402
+        height: 370
+      alignment: 9
+      pivot: {x: 0.48507464, y: 0.5310811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: santaur-swords_029
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 2993
+        width: 400
+        height: 367
+      alignment: 9
+      pivot: {x: 0.47, y: 0.51907355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
