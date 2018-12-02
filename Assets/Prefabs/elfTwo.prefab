@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114683962551046120}
   - component: {fileID: 50904825411279106}
   - component: {fileID: 58683681954647868}
+  - component: {fileID: 95656122450533016}
   m_Layer: 8
   m_Name: elfTwo
   m_TagString: Elf
@@ -78,6 +79,23 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.79
+--- !u!95 &95656122450533016
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618654711885284}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 649f8fa0b0c9895448a83c264ddfdbd7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114683962551046120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,7 +144,7 @@ SpriteRenderer:
   m_SortingLayerID: -2032830719
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f0db4dff9e9f37f4080bb4ce2917eb82, type: 3}
+  m_Sprite: {fileID: 21300062, guid: 71925d48423d3ec448279906e5fcc6fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
