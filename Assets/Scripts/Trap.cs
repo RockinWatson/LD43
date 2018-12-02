@@ -5,10 +5,12 @@ using UnityEngine;
 public class Trap : MonoBehaviour {
 
     private SpriteRenderer _sprite = null;
+    private Rigidbody2D _rb = null;
 
     private void Awake()
     {
         _sprite = this.GetComponent<SpriteRenderer>();
+        _rb = this.GetComponent<Rigidbody2D>();
 
         //@TODO: Set to disabled to start.
         Disable();
@@ -29,6 +31,8 @@ public class Trap : MonoBehaviour {
 
         //@TODO: Set layer to NOT DeadElf
         this.tag = "Untagged";
+
+        _rb.simulated = false;
     }
 
     private void Activate()
@@ -40,5 +44,7 @@ public class Trap : MonoBehaviour {
 
         //@TODO: Set layer to DeadElf
         this.tag = "DeadElf";
+
+        _rb.simulated = true;
     }
 }
