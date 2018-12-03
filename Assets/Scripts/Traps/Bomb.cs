@@ -65,6 +65,7 @@ public class Bomb : Trap {
                         {
                             Elf elf = _colliders[i].GetComponent<Elf>();
                             elf.ElfExplode();
+                            LevelAudioController.explosion.Play();
                         }
                     }
                 }

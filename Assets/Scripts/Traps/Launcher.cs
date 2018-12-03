@@ -49,6 +49,7 @@ public class Launcher : Trap {
                     {
                         Rigidbody2D rb = _colliders[i].GetComponent<Rigidbody2D>();
                         rb.AddForce(Vector2.up * _upwardForce, ForceMode2D.Impulse);
+                        LevelAudioController.springboard.Play();
                     }
                 }
             }

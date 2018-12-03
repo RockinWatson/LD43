@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
@@ -90,6 +91,27 @@ public class Player : MonoBehaviour {
         {
             //@TODO: Place trap.
             _trapPlacement.Place();
+
+            switch (_trapPlacementIndex)
+            {
+                case 0: LevelAudioController.placeTrap.Play();
+                    break;
+                case 1: LevelAudioController.bubbly.Play();
+                    break;
+                case 2: LevelAudioController.bubbly.Play();
+                    break;
+                case 3: LevelAudioController.placeTrap.Play();
+                    break;
+                case 4: LevelAudioController.placeTrap.Play();
+                    break;
+                case 5: LevelAudioController.buzzsaw.Play();
+                    break;
+                case 6: LevelAudioController.placeTrap.Play();
+                    break;
+                default:
+                    break;
+            }
+
 
             _trapPlacement = null;
             _trapPlacementIndex = -1;

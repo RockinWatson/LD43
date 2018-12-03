@@ -52,9 +52,9 @@ public class LevelAudioController : MonoBehaviour {
         audio[5].volume = .5f;  
         audio[6].volume = .5f;  
         audio[7].volume = .5f;
-        audio[8].volume = .5f;
-        audio[9].volume = .5f;
-        audio[10].volume = .5f;
-        audio[11].volume = .5f;
+        audio[8].volume = .15f;
+        audio[9].volume = .4f;
+        audio[10].volume = .7f;
+        audio[11].volume = .3f;
     }
 }

@@ -1024,14 +1024,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelMusic: {fileID: 0}
-  elfDeath1: {fileID: 0}
-  elfDeath2: {fileID: 0}
-  elfDeath3: {fileID: 0}
-  elfDeath4: {fileID: 0}
-  elfDeath5: {fileID: 0}
-  elfDeath6: {fileID: 0}
-  bubbly: {fileID: 0}
-  buzzsaw: {fileID: 0}
-  springboard: {fileID: 0}
-  explosion: {fileID: 0}
-  placeTrap: {fileID: 0}
