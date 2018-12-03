@@ -12,20 +12,29 @@ public class TitleController : MonoBehaviour {
 
     private float selectVolume;
 
+    private Scene _activeScene;
+
     // Use this for initialization
     void Awake () {
         //Scene currentScene = SceneManager.GetActiveScene();
         isTitle = true;
         InitAudio();
+        _activeScene = SceneManager.GetActiveScene();
 	}
 	
 	// Update is called once per frame
 	void Update () {
         if ((_select()) && (isTitle))
+        {
+            if (_activeScene.name == "Title")
             {
-            StartCoroutine(LoadStory());
+                StartCoroutine(LoadStory());
+            }
+            if (_activeScene.name == "GameOver")
+            {
+                StartCoroutine(LoadGame());
+            }
         }
-		
 	}
 
     private void InitAudio()
@@ -47,7 +56,14 @@ public class TitleController : MonoBehaviour {
         select.Play();
         titleMusic.Stop();
         yield return new WaitForSeconds(2.8f);
-        Debug.Log("Loading Story");
         SceneManager.LoadScene("StoryTutorial");
+    }
+
+    IEnumerator LoadGame() {
+        isTitle = false;
+        select.Play();
+        titleMusic.Stop();
+        yield return new WaitForSeconds(2.8f);
+        SceneManager.LoadScene("JTestScene");
     }
 }

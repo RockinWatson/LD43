@@ -41,14 +41,6 @@ public class LevelController : MonoBehaviour {
         }
     }
 
-    private void Update()
-    {
-        if (_seconds <= 0)
-        {
-            SceneManager.LoadScene("GameOver");
-        }
-    }
-
     public void IncreaseScore() {
         _score += 1;
     }
