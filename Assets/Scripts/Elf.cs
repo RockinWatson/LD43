@@ -94,7 +94,7 @@ public class Elf : MonoBehaviour {
             LevelController.Get().IncreasElfsEscaped();
             gameObject.SetActive(false);
         }
-        if (collision.gameObject.tag == "DeadElf")
+        if (collision.gameObject.tag == "DeadElf" || collision.gameObject.tag == "Santaur")
         {
             ElfExplode();
         }

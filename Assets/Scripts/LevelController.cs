@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour {
@@ -8,8 +9,7 @@ public class LevelController : MonoBehaviour {
 
     private Scene _currentScene;
 
-    private float _timer;
-    private int _seconds;
+    private int _seconds = 120;
     public int GetSeconds() { return _seconds; }
 
     private int _score = 0;
@@ -20,21 +20,33 @@ public class LevelController : MonoBehaviour {
 
     private void Awake(){
         DontDestroyOnLoad(gameObject);
-
-        _timer = 0;
+       
         _singleton = this;
         _currentScene = SceneManager.GetActiveScene();
 
         if (_currentScene.name == "JTestScene" )
         {
+            _seconds = 120;
             _score = 0;
             _elfsEscaped = 0;
         }
     }
 
+    private void Start()
+    {
+        if (_currentScene.name == "JTestScene")
+        {
+            StartCoroutine("LoseTime");
+            Time.timeScale = 1;
+        }
+    }
+
     private void Update()
     {
-        UpdateTimer();
+        if (_seconds <= 0)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 
     public void IncreaseScore() {
@@ -45,8 +57,11 @@ public class LevelController : MonoBehaviour {
         _elfsEscaped += 1;
     }
 
-    private void UpdateTimer() {
-        _timer += Time.deltaTime;
-        _seconds = (int)(_timer % 60);
+    IEnumerator LoseTime() {
+        while (true)
+        {
+            yield return new WaitForSeconds(1);
+            _seconds--;
+        }
     }
 }
