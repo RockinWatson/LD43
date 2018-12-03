@@ -7,8 +7,9 @@ public class Blood : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "BloodFull")
+        if (collision.gameObject.tag == "BloodFull")
         {
+            Debug.Log("Game Should Be over Or Change Scene!!!");
             SceneManager.LoadScene("GameOver");
         }
     }
