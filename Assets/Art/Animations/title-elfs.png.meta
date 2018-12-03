@@ -1,0 +1,1427 @@
+fileFormatVersion: 2
+guid: 9f0cb0606baa64b458815448a8cea0d8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: title-elfs
+    21300002: s-elf1_000
+    21300004: s-elf1_001
+    21300006: s-elf1_002
+    21300008: s-elf1_003
+    21300010: s-elf1_004
+    21300012: s-elf1_005
+    21300014: s-elf1_006
+    21300016: s-elf1_007
+    21300018: s-elf1_008
+    21300020: s-elf1_009
+    21300022: s-elf1_010
+    21300024: s-elf1_011
+    21300026: s-elf1_012
+    21300028: s-elf1_013
+    21300030: s-elf1_014
+    21300032: s-elf1_015
+    21300034: s-elf1_016
+    21300036: s-elf1_017
+    21300038: s-elf1_018
+    21300040: s-elf1_019
+    21300042: s-elf1_020
+    21300044: s-elf1_021
+    21300046: s-elf1_022
+    21300048: s-elf1_023
+    21300050: s-elf1_024
+    21300052: s-elf1_025
+    21300054: s-elf1_026
+    21300056: s-elf1_027
+    21300058: s-elf1_028
+    21300060: s-elf1_029
+    21300062: s-elf2_000
+    21300064: s-elf2_001
+    21300066: s-elf2_002
+    21300068: s-elf2_003
+    21300070: s-elf2_004
+    21300072: s-elf2_005
+    21300074: s-elf2_006
+    21300076: s-elf2_007
+    21300078: s-elf2_008
+    21300080: s-elf2_009
+    21300082: s-elf2_010
+    21300084: s-elf2_011
+    21300086: s-elf2_012
+    21300088: s-elf2_013
+    21300090: s-elf2_014
+    21300092: s-elf2_015
+    21300094: s-elf2_016
+    21300096: s-elf2_017
+    21300098: s-elf2_018
+    21300100: s-elf2_019
+    21300102: s-elf2_020
+    21300104: s-elf2_021
+    21300106: s-elf2_022
+    21300108: s-elf2_023
+    21300110: s-elf2_024
+    21300112: s-elf2_025
+    21300114: s-elf2_026
+    21300116: s-elf2_027
+    21300118: s-elf2_028
+    21300120: s-elf2_029
+    21300122: s-elf3_000
+    21300124: s-elf3_001
+    21300126: s-elf3_002
+    21300128: s-elf3_003
+    21300130: s-elf3_004
+    21300132: s-elf3_005
+    21300134: s-elf3_006
+    21300136: s-elf3_007
+    21300138: s-elf3_008
+    21300140: s-elf3_009
+    21300142: s-elf3_010
+    21300144: s-elf3_011
+    21300146: s-elf3_012
+    21300148: s-elf3_013
+    21300150: s-elf3_014
+    21300152: s-elf3_015
+    21300154: s-elf3_016
+    21300156: s-elf3_017
+    21300158: s-elf3_018
+    21300160: s-elf3_019
+    21300162: s-elf3_020
+    21300164: s-elf3_021
+    21300166: s-elf3_022
+    21300168: s-elf3_023
+    21300170: s-elf3_024
+    21300172: s-elf3_025
+    21300174: s-elf3_026
+    21300176: s-elf3_027
+    21300178: s-elf3_028
+    21300180: s-elf3_029
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: s-elf1_000
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 420
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49726775, y: 0.51804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_001
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 400
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49726775, y: 0.51804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_002
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 207
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49726775, y: 0.51804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_003
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 816
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49726775, y: 0.51804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_004
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 816
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49726775, y: 0.51804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_005
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 620
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49726775, y: 0.51804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_006
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 620
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49726775, y: 0.51804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_007
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 619
+        width: 183
+        height: 194
+      alignment: 9
+      pivot: {x: 0.49726775, y: 0.51804125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_008
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 13
+        width: 178
+        height: 197
+      alignment: 9
+      pivot: {x: 0.48314607, y: 0.5101523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_009
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 413
+        width: 179
+        height: 199
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.50502515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_010
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 9
+        width: 179
+        height: 199
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.50502515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_011
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 410
+        width: 179
+        height: 200
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.5025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4
+        width: 182
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4945055, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_013
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 4
+        width: 180
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_014
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 4
+        width: 179
+        height: 201
+      alignment: 9
+      pivot: {x: 0.49162012, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_015
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 208
+        width: 178
+        height: 200
+      alignment: 9
+      pivot: {x: 0.48876405, y: 0.5025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_016
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 15
+        width: 177
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4858757, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_017
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 6
+        width: 178
+        height: 200
+      alignment: 9
+      pivot: {x: 0.48314607, y: 0.5025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_018
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 612
+        width: 184
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_019
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 218
+        width: 179
+        height: 200
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.5025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_020
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 614
+        width: 180
+        height: 198
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.50757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_021
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 212
+        width: 178
+        height: 199
+      alignment: 9
+      pivot: {x: 0.48314607, y: 0.50502515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_022
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 421
+        width: 179
+        height: 196
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.5127551}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_023
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 412
+        width: 179
+        height: 201
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_024
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 16
+        width: 179
+        height: 200
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.5025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_025
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 17
+        width: 179
+        height: 195
+      alignment: 9
+      pivot: {x: 0.48603353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_026
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1017
+        width: 176
+        height: 200
+      alignment: 9
+      pivot: {x: 0.48295453, y: 0.5025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_027
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 413
+        width: 177
+        height: 199
+      alignment: 9
+      pivot: {x: 0.4858757, y: 0.50502515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_028
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 210
+        width: 177
+        height: 200
+      alignment: 9
+      pivot: {x: 0.48022598, y: 0.5025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf1_029
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 214
+        width: 177
+        height: 197
+      alignment: 9
+      pivot: {x: 0.48022598, y: 0.5101523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_000
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1835
+        width: 221
+        height: 212
+      alignment: 9
+      pivot: {x: 0.479638, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_001
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1430
+        width: 213
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4600939, y: 0.53731346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_002
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1437
+        width: 217
+        height: 203
+      alignment: 9
+      pivot: {x: 0.47004607, y: 0.5320197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_003
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1840
+        width: 220
+        height: 207
+      alignment: 9
+      pivot: {x: 0.47727272, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_004
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1225
+        width: 216
+        height: 205
+      alignment: 9
+      pivot: {x: 0.4675926, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_005
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1841
+        width: 223
+        height: 206
+      alignment: 9
+      pivot: {x: 0.48430493, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_006
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1629
+        width: 220
+        height: 204
+      alignment: 9
+      pivot: {x: 0.48181817, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_007
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1642
+        width: 220
+        height: 205
+      alignment: 9
+      pivot: {x: 0.47727272, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_008
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1849
+        width: 221
+        height: 198
+      alignment: 9
+      pivot: {x: 0.479638, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1233
+        width: 220
+        height: 203
+      alignment: 9
+      pivot: {x: 0.47727272, y: 0.5320197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1845
+        width: 224
+        height: 202
+      alignment: 9
+      pivot: {x: 0.49107143, y: 0.5346535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_011
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1842
+        width: 215
+        height: 205
+      alignment: 9
+      pivot: {x: 0.4651163, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_012
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1638
+        width: 221
+        height: 201
+      alignment: 9
+      pivot: {x: 0.479638, y: 0.53731346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_013
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1638
+        width: 214
+        height: 199
+      alignment: 9
+      pivot: {x: 0.46728972, y: 0.5427136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_014
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1436
+        width: 213
+        height: 202
+      alignment: 9
+      pivot: {x: 0.46478873, y: 0.5346535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_015
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1640
+        width: 219
+        height: 204
+      alignment: 9
+      pivot: {x: 0.47488585, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_016
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1633
+        width: 217
+        height: 205
+      alignment: 9
+      pivot: {x: 0.47004607, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1438
+        width: 221
+        height: 201
+      alignment: 9
+      pivot: {x: 0.479638, y: 0.53731346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1026
+        width: 216
+        height: 205
+      alignment: 9
+      pivot: {x: 0.4722222, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1641
+        width: 222
+        height: 202
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.5346535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_020
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1839
+        width: 219
+        height: 208
+      alignment: 9
+      pivot: {x: 0.47488585, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_021
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1230
+        width: 211
+        height: 205
+      alignment: 9
+      pivot: {x: 0.4549763, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_022
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1846
+        width: 220
+        height: 201
+      alignment: 9
+      pivot: {x: 0.47727272, y: 0.53731346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_023
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1432
+        width: 220
+        height: 204
+      alignment: 9
+      pivot: {x: 0.47727272, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_024
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1635
+        width: 214
+        height: 205
+      alignment: 9
+      pivot: {x: 0.46261683, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_025
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1842
+        width: 215
+        height: 205
+      alignment: 9
+      pivot: {x: 0.4651163, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_026
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1215
+        width: 210
+        height: 208
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_027
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1425
+        width: 217
+        height: 202
+      alignment: 9
+      pivot: {x: 0.47004607, y: 0.5346535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 818
+        width: 207
+        height: 206
+      alignment: 9
+      pivot: {x: 0.44444445, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf2_029
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1018
+        width: 210
+        height: 205
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_000
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 814
+        width: 187
+        height: 205
+      alignment: 9
+      pivot: {x: 0.43850267, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_001
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 403
+        width: 192
+        height: 205
+      alignment: 9
+      pivot: {x: 0.453125, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_002
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1026
+        width: 201
+        height: 202
+      alignment: 9
+      pivot: {x: 0.47761193, y: 0.5346535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_003
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1435
+        width: 206
+        height: 201
+      alignment: 9
+      pivot: {x: 0.49029127, y: 0.53731346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_004
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 1022
+        width: 192
+        height: 199
+      alignment: 9
+      pivot: {x: 0.453125, y: 0.5427136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_005
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 1634
+        width: 199
+        height: 206
+      alignment: 9
+      pivot: {x: 0.46733668, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_006
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 815
+        width: 196
+        height: 202
+      alignment: 9
+      pivot: {x: 0.46938777, y: 0.5346535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_007
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1007
+        width: 200
+        height: 206
+      alignment: 9
+      pivot: {x: 0.485, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_008
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1022
+        width: 198
+        height: 206
+      alignment: 9
+      pivot: {x: 0.479798, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_009
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1019
+        width: 198
+        height: 206
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 608
+        width: 199
+        height: 208
+      alignment: 9
+      pivot: {x: 0.4874372, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_011
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1230
+        width: 205
+        height: 204
+      alignment: 9
+      pivot: {x: 0.51707315, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_012
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 801
+        width: 198
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_013
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1223
+        width: 197
+        height: 206
+      alignment: 9
+      pivot: {x: 0.46192893, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 402
+        width: 192
+        height: 204
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_015
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 1012
+        width: 191
+        height: 205
+      alignment: 9
+      pivot: {x: 0.46596858, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_016
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 616
+        width: 196
+        height: 201
+      alignment: 9
+      pivot: {x: 0.45918366, y: 0.53731346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_017
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 615
+        width: 187
+        height: 201
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.53731346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_018
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1227
+        width: 205
+        height: 201
+      alignment: 9
+      pivot: {x: 0.49268293, y: 0.53731346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_019
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1226
+        width: 198
+        height: 207
+      alignment: 9
+      pivot: {x: 0.4949495, y: 0.5217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_020
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 610
+        width: 198
+        height: 199
+      alignment: 9
+      pivot: {x: 0.48989898, y: 0.5427136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_021
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 818
+        width: 197
+        height: 202
+      alignment: 9
+      pivot: {x: 0.4822335, y: 0.5346535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_022
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1431
+        width: 199
+        height: 202
+      alignment: 9
+      pivot: {x: 0.47738692, y: 0.5346535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_023
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 596
+        width: 194
+        height: 203
+      alignment: 9
+      pivot: {x: 0.4742268, y: 0.5320197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_024
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1219
+        width: 192
+        height: 203
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5320197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_025
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1021
+        width: 197
+        height: 203
+      alignment: 9
+      pivot: {x: 0.47715735, y: 0.5320197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_026
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1424
+        width: 197
+        height: 208
+      alignment: 9
+      pivot: {x: 0.47715735, y: 0.5192308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_027
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 819
+        width: 198
+        height: 205
+      alignment: 9
+      pivot: {x: 0.46969697, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_028
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 811
+        width: 200
+        height: 205
+      alignment: 9
+      pivot: {x: 0.48, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: s-elf3_029
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 815
+        width: 191
+        height: 205
+      alignment: 9
+      pivot: {x: 0.45026177, y: 0.52682924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
