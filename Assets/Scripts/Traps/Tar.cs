@@ -34,15 +34,18 @@ public class Tar : Trap {
 
     public void Spat()
     {
-        int count = _collider.GetContacts(_colliders);
-        if (count > 0)
+        if (IsArmed())
         {
-            for (int i = 0; i < count; ++i)
+            int count = _collider.GetContacts(_colliders);
+            if (count > 0)
             {
-                if (_colliders[i].tag == "Elf")
+                for (int i = 0; i < count; ++i)
                 {
-                    Elf elf = _colliders[i].GetComponent<Elf>();
-                    elf.Tar();
+                    if (_colliders[i].tag == "Elf")
+                    {
+                        Elf elf = _colliders[i].GetComponent<Elf>();
+                        elf.Tar();
+                    }
                 }
             }
         }

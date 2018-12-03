@@ -37,16 +37,19 @@ public class Launcher : Trap {
 
     public void Launch()
     {
-        //@TODO: Set upward force on nearby Elves
-        int count = _collider.GetContacts(_colliders);
-        if(count > 0)
+        if (IsArmed())
         {
-            for(int i = 0; i < count; ++i)
+            //@TODO: Set upward force on nearby Elves
+            int count = _collider.GetContacts(_colliders);
+            if (count > 0)
             {
-                if(_colliders[i].tag == "Elf")
+                for (int i = 0; i < count; ++i)
                 {
-                    Rigidbody2D rb = _colliders[i].GetComponent<Rigidbody2D>();
-                    rb.AddForce(Vector2.up * _upwardForce, ForceMode2D.Impulse);
+                    if (_colliders[i].tag == "Elf")
+                    {
+                        Rigidbody2D rb = _colliders[i].GetComponent<Rigidbody2D>();
+                        rb.AddForce(Vector2.up * _upwardForce, ForceMode2D.Impulse);
+                    }
                 }
             }
         }

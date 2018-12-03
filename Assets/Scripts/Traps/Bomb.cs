@@ -38,36 +38,39 @@ public class Bomb : Trap {
 
     public void ProximityCheck()
     {
-        bool selfDestruct = false;
-        int count = Physics2D.OverlapCircleNonAlloc(this.transform.position, _proximityRadius, _colliders);
-        if (count > 0)
+        if (IsArmed())
         {
-            for (int i = 0; i < count; ++i)
-            {
-                if (_colliders[i].tag == "Elf")
-                {
-                    selfDestruct = true;
-                    break;
-                }
-            }
-        }
-
-        if(selfDestruct)
-        {
-            count = Physics2D.OverlapCircleNonAlloc(this.transform.position, _explodeRadius, _colliders);
+            bool selfDestruct = false;
+            int count = Physics2D.OverlapCircleNonAlloc(this.transform.position, _proximityRadius, _colliders);
             if (count > 0)
             {
                 for (int i = 0; i < count; ++i)
                 {
                     if (_colliders[i].tag == "Elf")
                     {
-                        Elf elf = _colliders[i].GetComponent<Elf>();
-                        elf.ElfExplode();
+                        selfDestruct = true;
+                        break;
                     }
                 }
             }
 
-            Destroy(this.gameObject);
+            if (selfDestruct)
+            {
+                count = Physics2D.OverlapCircleNonAlloc(this.transform.position, _explodeRadius, _colliders);
+                if (count > 0)
+                {
+                    for (int i = 0; i < count; ++i)
+                    {
+                        if (_colliders[i].tag == "Elf")
+                        {
+                            Elf elf = _colliders[i].GetComponent<Elf>();
+                            elf.ElfExplode();
+                        }
+                    }
+                }
+
+                Destroy(this.gameObject);
+            }
         }
     }
 }
