@@ -7,10 +7,11 @@ public class LevelController : MonoBehaviour {
 
     public GameObject BloodLevel;
 
-    public int Score = 0;
-    public int GetScore() {
-        return Score;
-    }
+    private int _score = 0;
+    public int GetScore() { return _score; }
+
+    private int _elfsEscaped = 0;
+    public int GetEscapedElfs() { return _elfsEscaped; }
 
     private void Awake()
     {
@@ -19,8 +20,10 @@ public class LevelController : MonoBehaviour {
 
     public void IncreaseScore() {
         BloodLevel.gameObject.transform.position += transform.up * Time.deltaTime * 2f;
-        Score += 1;
+        _score += 1;
     }
 
-
+    public void IncreasElfsEscaped() {
+        _elfsEscaped += 1;
+    }
 }

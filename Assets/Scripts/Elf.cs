@@ -66,6 +66,7 @@ public class Elf : MonoBehaviour {
         //}
         if (collision.gameObject.tag == "ElfExit")
         {
+            LevelController.Get().IncreasElfsEscaped();
             gameObject.SetActive(false);
         }
         if (collision.gameObject.tag == "DeadElf")
