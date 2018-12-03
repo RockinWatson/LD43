@@ -11,6 +11,8 @@ TagManager:
   - ElfExit
   - DeadElf
   - Controller
+  - MovingPlatform
+  - TopCollider
   layers:
   - Default
   - TransparentFX
