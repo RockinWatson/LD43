@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StoryTutorial.unity
     guid: 68d72bb87b83a094b817d2ea2c68e892
+  - enabled: 1
+    path: Assets/Scenes/RopeTestScene.unity
+    guid: f7a81f23991b2a648aa1ea445063234c

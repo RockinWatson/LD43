@@ -3,51 +3,53 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TitleController : MonoBehaviour {
+public class StoryAudioController : MonoBehaviour {
 
     private bool _select() { return (Input.GetKeyDown(KeyCode.Space)); }
-    private bool isTitle;
-    public AudioSource titleMusic;
+    private bool isStory;
+    public AudioSource storyMusic;
     public AudioSource select;
 
     private float selectVolume;
 
     // Use this for initialization
-    void Awake () {
+    void Awake()
+    {
         //Scene currentScene = SceneManager.GetActiveScene();
-        isTitle = true;
+        isStory = true;
         InitAudio();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        if ((_select()) && (isTitle))
-            {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if ((_select()) && (isStory))
+        {
             StartCoroutine(LoadStory());
         }
-		
-	}
+
+    }
 
     private void InitAudio()
     {
         selectVolume = .5f;
         AudioSource[] audio = GetComponents<AudioSource>();
-        titleMusic = audio[0];
+        storyMusic = audio[0];
         select = audio[1];
         select.playOnAwake = false;
         select.volume = selectVolume;
-        titleMusic.Play();
-        titleMusic.loop = true;
+        storyMusic.Play();
+        storyMusic.loop = true;
 
     }
 
     IEnumerator LoadStory()
     {
-        isTitle = false;
+        isStory = false;
         select.Play();
-        titleMusic.Stop();
+        storyMusic.Stop();
         yield return new WaitForSeconds(2.8f);
-        Debug.Log("Loading Story");
-        SceneManager.LoadScene("StoryTutorial");
+        Debug.Log("Loading Level");
+        SceneManager.LoadScene("RopeTestScene");
     }
 }
