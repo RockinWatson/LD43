@@ -11,23 +11,31 @@ public class Elf : MonoBehaviour {
 
     public GameObject AnimDeath;
 
+    private bool _tarred = false;
+    public void Tar()
+    {
+        _tarred = true;
+        _sprtRend.color = new Color(.25f, .25f, .25f);
+    }
+
     private void Awake()
     {
         _sprtRend = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    void Update () {     
+    void Update () {
+        float speedAdjusted = (_tarred) ? Speed * 0.5f : Speed;
 
         if (_moveRight)
         {
             _sprtRend.flipX = false;
-            transform.Translate(Vector2.right * Time.deltaTime * Speed);
+            transform.Translate(Vector2.right * Time.deltaTime * speedAdjusted);
         }
         else
         {
             _sprtRend.flipX = true;
-            transform.Translate(Vector2.left * Time.deltaTime * Speed);
+            transform.Translate(Vector2.left * Time.deltaTime * speedAdjusted);
         }
 	}
 
