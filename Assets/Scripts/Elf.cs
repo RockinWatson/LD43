@@ -6,7 +6,7 @@ public class Elf : MonoBehaviour {
     public GameObject ElfExit;
     public float Speed;
 
-    private bool _moveRight = false;
+    private bool _moveRight = true;
     private SpriteRenderer _sprtRend;
 
     public GameObject AnimDeath;
@@ -87,5 +87,9 @@ public class Elf : MonoBehaviour {
         LevelController.Get().IncreaseScore();
 
         gameObject.SetActive(false);
+    }
+
+    public void ResetElf() {
+
     }
 }
