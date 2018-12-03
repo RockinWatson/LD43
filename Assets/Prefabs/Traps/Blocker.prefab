@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61107122913548220}
   - component: {fileID: 114736626730325180}
   - component: {fileID: 50377033780462076}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blocker
   m_TagString: DeadElf
   m_Icon: {fileID: 0}

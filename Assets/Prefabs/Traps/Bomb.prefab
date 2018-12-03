@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61632721614365752}
   - component: {fileID: 114093954127061892}
   - component: {fileID: 50157140485491840}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bomb
   m_TagString: DeadElf
   m_Icon: {fileID: 0}

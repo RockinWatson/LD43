@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61855446273289690}
   - component: {fileID: 114406643028433334}
   - component: {fileID: 50133659077305586}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Acid
   m_TagString: DeadElf
   m_Icon: {fileID: 0}

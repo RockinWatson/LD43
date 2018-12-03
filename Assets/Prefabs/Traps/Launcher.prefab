@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61510147958592156}
   - component: {fileID: 114712414470755898}
   - component: {fileID: 50491511718599366}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Launcher
   m_TagString: DeadElf
   m_Icon: {fileID: 0}

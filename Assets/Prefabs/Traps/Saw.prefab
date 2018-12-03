@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61712128850443864}
   - component: {fileID: 114004647326357302}
   - component: {fileID: 50963485376278482}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Saw
   m_TagString: DeadElf
   m_Icon: {fileID: 0}

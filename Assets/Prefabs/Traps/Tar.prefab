@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61744870088698712}
   - component: {fileID: 114024100189656222}
   - component: {fileID: 50494724801908282}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tar
   m_TagString: DeadElf
   m_Icon: {fileID: 0}

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 61955369223963912}
   - component: {fileID: 114956245911448836}
   - component: {fileID: 50645792391423664}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Spikes
   m_TagString: DeadElf
   m_Icon: {fileID: 0}
