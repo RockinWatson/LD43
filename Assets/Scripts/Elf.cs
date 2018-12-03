@@ -11,6 +11,8 @@ public class Elf : MonoBehaviour {
 
     public GameObject AnimDeath;
 
+    private Rigidbody2D _rb = null;
+
     private bool _tarred = false;
     public void Tar()
     {
@@ -18,9 +20,26 @@ public class Elf : MonoBehaviour {
         _sprtRend.color = new Color(.25f, .25f, .25f);
     }
 
+    private bool _poisoned = false;
+    private float _poisonTimer = 0.0f;
+    private float _poisonTick = 0.5f;
+    private bool _poisonStab = false;
+    private int _poisonHP = 3;
+    static private Color _poisonStabColor = Color.green;
+    public void Poison()
+    {
+        if (!_poisoned)
+        {
+            _poisoned = true;
+            PoisonStab();
+        }
+    }
+
     private void Awake()
     {
         _sprtRend = GetComponent<SpriteRenderer>();
+
+        _rb = this.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -37,7 +56,12 @@ public class Elf : MonoBehaviour {
             _sprtRend.flipX = true;
             transform.Translate(Vector2.left * Time.deltaTime * speedAdjusted);
         }
-	}
+    }
+
+    private void FixedUpdate()
+    {
+        UpdatePoison();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -90,6 +114,56 @@ public class Elf : MonoBehaviour {
     }
 
     public void ResetElf() {
+    }
 
+    private void UpdatePoison()
+    {
+        if(_poisoned)
+        {
+            _poisonTimer += Time.fixedDeltaTime;
+            if (!_poisonStab)
+            {
+                if (_poisonTimer > _poisonTick)
+                {
+                    PoisonStab();
+                }
+            }
+            else
+            {
+                _sprtRend.color = _poisonStabColor;
+                if(_poisonTimer > (_poisonTick / 5.0f))
+                {
+                    _rb.AddForce(Vector2.down * 12.0f, ForceMode2D.Impulse);
+
+                    if (--_poisonHP < 0)
+                    {
+                        ElfExplode();
+                    }
+                    else
+                    {
+                        _poisonStab = false;
+                        _poisonTimer = 0.0f;
+
+                        _sprtRend.color = Color.white;
+
+                        if (_tarred)
+                        {
+                            Tar();
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private void PoisonStab()
+    {
+        //@TODO: Poison stab
+        _poisonStab = true;
+        _poisonTimer = 0.0f;
+
+        _sprtRend.color = _poisonStabColor;
+
+        _rb.AddForce(Vector2.up * 7.0f, ForceMode2D.Impulse);
     }
 }
