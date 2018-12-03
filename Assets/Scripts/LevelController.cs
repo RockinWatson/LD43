@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour {
 
@@ -7,15 +8,23 @@ public class LevelController : MonoBehaviour {
 
     public GameObject BloodLevel;
 
+    private Scene _currentScene;
+
     private int _score = 0;
     public int GetScore() { return _score; }
 
     private int _elfsEscaped = 0;
     public int GetEscapedElfs() { return _elfsEscaped; }
 
-    private void Awake()
-    {
+    private void Awake(){
+        DontDestroyOnLoad(gameObject);
         _singleton = this;
+        _currentScene = SceneManager.GetActiveScene();
+        if (_currentScene.name == "JTestScene" )
+        {
+            _score = 0;
+            _elfsEscaped = 0;
+        }
     }
 
     public void IncreaseScore() {
