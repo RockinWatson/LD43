@@ -63,9 +63,8 @@ public class Elf : MonoBehaviour {
         }
         if (collision.gameObject.tag == "DeadElf")
         {
-            ElfExplode(transform.position);
+            ElfExplode();
             LevelController.Get().IncreaseScore();
-            gameObject.SetActive(false);
         }
     }
 
@@ -74,8 +73,10 @@ public class Elf : MonoBehaviour {
         return Random.value < chanceOfSuccess;
     }
 
-    private void ElfExplode(Vector3 pos) {
+    public void ElfExplode() {
         GameObject explode = Instantiate(AnimDeath);
-        explode.transform.position = pos;
+        explode.transform.position = transform.position;
+
+        gameObject.SetActive(false);
     }
 }
