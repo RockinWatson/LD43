@@ -10,6 +10,8 @@ public class LevelController : MonoBehaviour {
 
     private Scene _currentScene;
 
+    private float _timer;
+
     private int _score = 0;
     public int GetScore() { return _score; }
 
@@ -18,8 +20,11 @@ public class LevelController : MonoBehaviour {
 
     private void Awake(){
         DontDestroyOnLoad(gameObject);
+
+        _timer = 0;
         _singleton = this;
         _currentScene = SceneManager.GetActiveScene();
+
         if (_currentScene.name == "JTestScene" )
         {
             _score = 0;
