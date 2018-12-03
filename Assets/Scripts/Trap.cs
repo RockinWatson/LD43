@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Trap : MonoBehaviour {
 
+    [SerializeField]
+    private float _bloodCost = 10.0f;
+    public float GetBloodCost()
+    {
+        return _bloodCost;
+    }
+
     private SpriteRenderer _sprite = null;
     private Rigidbody2D _rb = null;
 
@@ -26,6 +33,8 @@ public class Trap : MonoBehaviour {
     {
         //@TODO: Set to active.
         Activate();
+
+        Player.Get().SpendBloodLevel(_bloodCost);
     }
 
     private void Disable()
