@@ -50,6 +50,6 @@ public class StoryAudioController : MonoBehaviour {
         storyMusic.Stop();
         yield return new WaitForSeconds(2.8f);
         Debug.Log("Loading Level");
-        SceneManager.LoadScene("RopeTestScene");
+        SceneManager.LoadScene("JTestScene");
     }
 }

@@ -18,6 +18,7 @@ public class LevelAudioController : MonoBehaviour {
     public static AudioSource springboard;
     public static AudioSource explosion;
     public static AudioSource placeTrap;
+    public static AudioSource noCash;
 
     // Use this for initialization
     void Awake () {
@@ -44,6 +45,7 @@ public class LevelAudioController : MonoBehaviour {
         springboard = audio[9];
         explosion = audio[10];
         placeTrap = audio[11];
+        noCash = audio[12];
 
         audio[1].volume = .5f;
         audio[2].volume = .5f;  
@@ -56,5 +58,6 @@ public class LevelAudioController : MonoBehaviour {
         audio[9].volume = .4f;
         audio[10].volume = .7f;
         audio[11].volume = .3f;
+        audio[12].volume = .4f;
     }
 }
