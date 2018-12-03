@@ -7,17 +7,17 @@ public class LevelAudioController : MonoBehaviour {
     //public AudioSource[] elfDeath;
 
     public AudioSource levelMusic;
-    public AudioSource elfDeath1;
-    public AudioSource elfDeath2;
-    public AudioSource elfDeath3;
-    public AudioSource elfDeath4;
-    public AudioSource elfDeath5;
-    public AudioSource elfDeath6;
-    public AudioSource bubbly;
-    public AudioSource buzzsaw;
-    public AudioSource springboard;
-    public AudioSource explosion;
-    public AudioSource placeTrap;
+    public static AudioSource elfDeath1;
+    public static AudioSource elfDeath2;
+    public static AudioSource elfDeath3;
+    public static AudioSource elfDeath4;
+    public static AudioSource elfDeath5;
+    public static AudioSource elfDeath6;
+    public static AudioSource bubbly;
+    public static AudioSource buzzsaw;
+    public static AudioSource springboard;
+    public static AudioSource explosion;
+    public static AudioSource placeTrap;
 
     // Use this for initialization
     void Awake () {
@@ -44,5 +44,17 @@ public class LevelAudioController : MonoBehaviour {
         springboard = audio[9];
         explosion = audio[10];
         placeTrap = audio[11];
+
+        audio[1].volume = .5f;
+        audio[2].volume = .5f;  
+        audio[3].volume = .5f;  
+        audio[4].volume = .5f;  
+        audio[5].volume = .5f;  
+        audio[6].volume = .5f;  
+        audio[7].volume = .5f;
+        audio[8].volume = .5f;
+        audio[9].volume = .5f;
+        audio[10].volume = .5f;
+        audio[11].volume = .5f;
     }
 }

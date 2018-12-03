@@ -8,6 +8,7 @@ public class Elf : MonoBehaviour {
 
     private bool _moveRight = true;
     private SpriteRenderer _sprtRend;
+    private int _sfxPick;
 
     public GameObject AnimDeath;
 
@@ -105,6 +106,50 @@ public class Elf : MonoBehaviour {
     }
 
     public void ElfExplode() {
+        _sfxPick = Random.Range(1, 7);
+
+        switch (_sfxPick)
+        {
+            case 1:
+                if (!LevelAudioController.elfDeath1.isPlaying)
+                {
+                    LevelAudioController.elfDeath1.Play();
+                }
+                break;
+            case 2:
+                if (!LevelAudioController.elfDeath2.isPlaying)
+                {
+                    LevelAudioController.elfDeath2.Play();
+                }
+
+                break;
+            case 3:
+                if (!LevelAudioController.elfDeath3.isPlaying)
+                {
+                    LevelAudioController.elfDeath3.Play();
+                }
+                break;
+            case 4:
+                if (!LevelAudioController.elfDeath4.isPlaying)
+                {
+                    LevelAudioController.elfDeath4.Play();
+                }
+                break;
+            case 5:
+                if (!LevelAudioController.elfDeath5.isPlaying)
+                {
+                    LevelAudioController.elfDeath5.Play();
+                }
+                break;
+            case 6:
+                if (!LevelAudioController.elfDeath6.isPlaying)
+                {
+                    LevelAudioController.elfDeath6.Play();
+                }
+                break;
+            default:
+                break;
+        }
         GameObject explode = Instantiate(AnimDeath);
         explode.transform.position = transform.position;
 
