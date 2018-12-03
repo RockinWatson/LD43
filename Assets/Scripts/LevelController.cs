@@ -15,6 +15,8 @@ public class LevelController : MonoBehaviour {
     private Scene _currentScene;
 
     private float _timer;
+    private int _seconds;
+    public int GetSeconds() { return _seconds; }
 
     private int _score = 0;
     public int GetScore() { return _score; }
@@ -46,7 +48,7 @@ public class LevelController : MonoBehaviour {
 
     private void Update()
     {
-
+        UpdateTimer();
         UpdateBloodLevelVisual();
     }
 
@@ -63,5 +65,10 @@ public class LevelController : MonoBehaviour {
     {
         float bloodScale = Mathf.Min(Player.Get().GetBloodLevel(), _bloodLevelMaxForVisual) / _bloodLevelMaxForVisual * _bloodLevelMaxPosY;
         BloodLevel.transform.position = _bloodLevelVisualZeroPos + (Vector3.up * bloodScale);
+    }
+
+    private void UpdateTimer() {
+        _timer += Time.deltaTime;
+        _seconds = (int)(_timer % 60);
     }
 }
