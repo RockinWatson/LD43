@@ -72,7 +72,6 @@ public class Elf : MonoBehaviour {
         if (collision.gameObject.tag == "DeadElf")
         {
             ElfExplode();
-            LevelController.Get().IncreaseScore();
         }
     }
 
@@ -84,6 +83,8 @@ public class Elf : MonoBehaviour {
     public void ElfExplode() {
         GameObject explode = Instantiate(AnimDeath);
         explode.transform.position = transform.position;
+
+        LevelController.Get().IncreaseScore();
 
         gameObject.SetActive(false);
     }
