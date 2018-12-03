@@ -4,8 +4,23 @@ using UnityEngine;
 
 public class Bomb : Trap {
 
-	// Use this for initialization
-	void Start () {
+    [SerializeField]
+    private float _proximityRadius = 1.0f;
+
+    [SerializeField]
+    private float _explodeRadius = 1.5f;
+
+    private Collider2D[] _colliders = null;
+
+    protected override void Awake()
+    {
+        base.Awake();
+
+        _colliders = new Collider2D[20];
+    }
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -13,4 +28,46 @@ public class Bomb : Trap {
 	void Update () {
 		
 	}
+
+    protected override void Activate()
+    {
+        base.Activate();
+
+        this.tag = "Untagged";
+    }
+
+    public void ProximityCheck()
+    {
+        bool selfDestruct = false;
+        int count = Physics2D.OverlapCircleNonAlloc(this.transform.position, _proximityRadius, _colliders);
+        if (count > 0)
+        {
+            for (int i = 0; i < count; ++i)
+            {
+                if (_colliders[i].tag == "Elf")
+                {
+                    selfDestruct = true;
+                    break;
+                }
+            }
+        }
+
+        if(selfDestruct)
+        {
+            count = Physics2D.OverlapCircleNonAlloc(this.transform.position, _explodeRadius, _colliders);
+            if (count > 0)
+            {
+                for (int i = 0; i < count; ++i)
+                {
+                    if (_colliders[i].tag == "Elf")
+                    {
+                        Elf elf = _colliders[i].GetComponent<Elf>();
+                        elf.ElfExplode();
+                    }
+                }
+            }
+
+            Destroy(this.gameObject);
+        }
+    }
 }
