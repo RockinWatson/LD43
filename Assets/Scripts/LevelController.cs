@@ -7,6 +7,10 @@ public class LevelController : MonoBehaviour {
     static public LevelController Get() { return _singleton; }
 
     public GameObject BloodLevel;
+    private Vector3 _bloodLevelVisualStartPos;
+    private Vector3 _bloodLevelVisualZeroPos;
+    private float _bloodLevelMaxForVisual = 1000.0f;
+    private float _bloodLevelMaxPosY = 8.1f;
 
     private Scene _currentScene;
 
@@ -30,14 +34,34 @@ public class LevelController : MonoBehaviour {
             _score = 0;
             _elfsEscaped = 0;
         }
+
+        //_bloodLevelVisualStartPos = BloodLevel.transform.position;
+    }
+
+    private void Start()
+    {
+        float scaleToZero = Player.Get().GetBloodLevel() / _bloodLevelMaxForVisual * _bloodLevelMaxPosY;
+        _bloodLevelVisualZeroPos = BloodLevel.transform.position - (Vector3.up * scaleToZero);
+    }
+
+    private void Update()
+    {
+
+        UpdateBloodLevelVisual();
     }
 
     public void IncreaseScore() {
-        BloodLevel.gameObject.transform.position += transform.up * Time.deltaTime * 2f;
+        //BloodLevel.gameObject.transform.position += transform.up * Time.deltaTime * 2f;
         _score += 1;
     }
 
     public void IncreasElfsEscaped() {
         _elfsEscaped += 1;
+    }
+
+    private void UpdateBloodLevelVisual()
+    {
+        float bloodScale = Mathf.Min(Player.Get().GetBloodLevel(), _bloodLevelMaxForVisual) / _bloodLevelMaxForVisual * _bloodLevelMaxPosY;
+        BloodLevel.transform.position = _bloodLevelVisualZeroPos + (Vector3.up * bloodScale);
     }
 }

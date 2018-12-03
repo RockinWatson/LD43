@@ -2,6 +2,9 @@
 
 public class Elf : MonoBehaviour {
 
+    [SerializeField]
+    private float _bloodLevel = 10.0f;
+
     [HideInInspector]
     public GameObject ElfExit;
     public float Speed;
@@ -155,12 +158,15 @@ public class Elf : MonoBehaviour {
 
         LevelController.Get().IncreaseScore();
 
+        Player.Get().AddBloodLevel(_bloodLevel);
+
         gameObject.SetActive(false);
     }
 
     public void ResetElf() {
         _tarred = false;
         _poisoned = false;
+        _poisonHP = 3;
 
         _sprtRend.color = Color.white;
     }

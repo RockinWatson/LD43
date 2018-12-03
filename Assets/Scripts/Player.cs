@@ -8,6 +8,21 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private List<GameObject> _trapPrefabs = null;
 
+    private float _bloodLevel = 50.0f;
+    public float GetBloodLevel()
+    {
+        return _bloodLevel;
+    }
+    public void AddBloodLevel(float pay)
+    {
+        _bloodLevel += pay;
+    }
+    public void SpendBloodLevel(float cost)
+    {
+        _bloodLevel -= cost;
+        _bloodLevel = Mathf.Max(0.0f, _bloodLevel);
+    }
+
     // Trap Placement
     private Trap _trapPlacement = null;
     private int _trapPlacementIndex = -1;
@@ -89,6 +104,12 @@ public class Player : MonoBehaviour {
     {
         if(_trapPlacement)
         {
+            if (_trapPlacement.GetBloodCost() > _bloodLevel)
+            {
+                //@TODO: Error noise indicating not enough blood?
+                return;
+            }
+
             //@TODO: Place trap.
             _trapPlacement.Place();
 
@@ -117,4 +138,9 @@ public class Player : MonoBehaviour {
             _trapPlacementIndex = -1;
         }
     }
+
+    //private void OnGUI()
+    //{
+    //    GUI.TextArea(new Rect(0, 0, 200, 200), "BLOOD LEVEL: " + _bloodLevel);
+    //}
 }
