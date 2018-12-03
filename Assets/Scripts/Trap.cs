@@ -7,6 +7,12 @@ public class Trap : MonoBehaviour {
     private SpriteRenderer _sprite = null;
     private Rigidbody2D _rb = null;
 
+    private bool _armed = false;
+    public bool IsArmed()
+    {
+        return _armed;
+    }
+
     virtual protected void Awake()
     {
         _sprite = this.GetComponent<SpriteRenderer>();
@@ -24,6 +30,8 @@ public class Trap : MonoBehaviour {
 
     private void Disable()
     {
+        _armed = false;
+
         //@TODO: Turn on half alpha.
         Color preColor = _sprite.color;
         preColor.a = 0.5f;
@@ -37,6 +45,8 @@ public class Trap : MonoBehaviour {
 
     virtual protected void Activate()
     {
+        _armed = true;
+
         //@TODO: Turn on full alpha.
         Color preColor = _sprite.color;
         preColor.a = 1.0f;
