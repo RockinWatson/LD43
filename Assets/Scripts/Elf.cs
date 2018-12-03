@@ -114,6 +114,10 @@ public class Elf : MonoBehaviour {
     }
 
     public void ResetElf() {
+        _tarred = false;
+        _poisoned = false;
+
+        _sprtRend.color = Color.white;
     }
 
     private void UpdatePoison()

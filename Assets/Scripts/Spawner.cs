@@ -56,6 +56,8 @@ public class Spawner : MonoBehaviour {
         Vector2 pos;
         pos = new Vector2(transform.position.x, transform.position.y);
         gameObj.transform.position = pos;
+        Elf elf = gameObj.GetComponent<Elf>();
+        elf.ResetElf();
         gameObj.SetActive(true);
     }
 }
