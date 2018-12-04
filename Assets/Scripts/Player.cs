@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
     private List<GameObject> _trapPrefabs = null;
 
     private float _bloodLevel = 50.0f;
+    private float _bloodLevelTimer = 0.0f;
     public float GetBloodLevel()
     {
         return _bloodLevel;
@@ -46,6 +47,13 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         UpdatePlayerInput();
+
+        _bloodLevelTimer += Time.deltaTime;
+        if(_bloodLevelTimer >= 5.0f)
+        {
+            _bloodLevel += 10.0f;
+            _bloodLevelTimer = 0.0f;
+        }
     }
 
     private void UpdatePlayerInput() {
