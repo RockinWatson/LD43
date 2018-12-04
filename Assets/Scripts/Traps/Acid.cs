@@ -45,6 +45,8 @@ public class Acid : Trap {
                     {
                         Elf elf = _colliders[i].GetComponent<Elf>();
                         elf.Poison();
+
+                        TallyKill();
                     }
                 }
             }

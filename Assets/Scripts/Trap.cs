@@ -11,6 +11,9 @@ public class Trap : MonoBehaviour {
         return _bloodCost;
     }
 
+    [SerializeField]
+    private float _hitPoints = 10.0f;
+
     private SpriteRenderer _sprite = null;
     public SpriteRenderer GetSpriteRenderer()
     {
@@ -85,5 +88,13 @@ public class Trap : MonoBehaviour {
         this.tag = "DeadElf";
 
         _rb.simulated = true;
+    }
+
+    public void TallyKill()
+    {
+        if(--_hitPoints <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }
