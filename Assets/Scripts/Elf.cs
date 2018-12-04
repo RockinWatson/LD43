@@ -94,12 +94,12 @@ public class Elf : MonoBehaviour {
         {
             _moveRight = SetRandLefRight(0.8f);
         }
-        if (collision.gameObject.tag == "ElfExit" || collision.gameObject.tag == "TopCollider")
+        if (collision.gameObject.tag == "ElfExit")
         {
             LevelController.Get().IncreasElfsEscaped();
             gameObject.SetActive(false);
         }
-        if (collision.gameObject.tag == "DeadElf" || collision.gameObject.tag == "Santaur")
+        if (collision.gameObject.tag == "DeadElf" || collision.gameObject.tag == "Santaur" || collision.gameObject.tag == "TopCollider")
         {
             ElfExplode();
         }
