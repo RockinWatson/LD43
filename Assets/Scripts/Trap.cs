@@ -12,6 +12,11 @@ public class Trap : MonoBehaviour {
     }
 
     private SpriteRenderer _sprite = null;
+    public SpriteRenderer GetSpriteRenderer()
+    {
+        return _sprite;
+    }
+
     private Rigidbody2D _rb = null;
 
     private bool _armed = false;

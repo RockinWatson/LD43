@@ -97,6 +97,17 @@ public class Player : MonoBehaviour {
             Vector3 pos = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
             pos.z = _trapPlacement.transform.position.z;
             _trapPlacement.transform.position = pos;
+
+            Color trapColor;
+            if(_trapPlacement.GetBloodCost() > _bloodLevel)
+            {
+                trapColor = Color.red;
+            }
+            else
+            {
+                trapColor = Color.white;
+            }
+            _trapPlacement.GetSpriteRenderer().color = trapColor;
         }
     }
 
