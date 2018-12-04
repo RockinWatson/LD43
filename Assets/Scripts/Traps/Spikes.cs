@@ -34,7 +34,7 @@ public class Spikes : Trap {
                     if (_colliders[i].tag == "Elf")
                     {
                         Elf elf = _colliders[i].GetComponent<Elf>();
-                        elf.ElfExplode();
+                        elf.SpikeStab();
 
                         TallyKill();
                     }

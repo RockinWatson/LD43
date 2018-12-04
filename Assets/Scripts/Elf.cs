@@ -28,7 +28,7 @@ public class Elf : MonoBehaviour {
     private float _poisonTimer = 0.0f;
     private float _poisonTick = 0.5f;
     private bool _poisonStab = false;
-    private int _poisonHP = 3;
+    private int _hitPoints = 3;
     static private Color _poisonStabColor = Color.green;
     public void Poison()
     {
@@ -38,6 +38,11 @@ public class Elf : MonoBehaviour {
             PoisonStab();
         }
     }
+
+    private bool _spikeStab = false;
+    private float _spikeTimer = 0.0f;
+    private float _spikeTick = 0.5f;
+    static private Color _spikeStabColor = Color.red;
 
     private void Awake()
     {
@@ -70,6 +75,8 @@ public class Elf : MonoBehaviour {
     private void FixedUpdate()
     {
         UpdatePoison();
+
+        UpdateSpiked();
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -172,7 +179,7 @@ public class Elf : MonoBehaviour {
     public void ResetElf() {
         _tarred = false;
         _poisoned = false;
-        _poisonHP = 3;
+        _hitPoints = 3;
         _moveRight = SetRandLefRight(0.5f);
 
         _sprtRend.color = Color.white;
@@ -197,7 +204,7 @@ public class Elf : MonoBehaviour {
                 {
                     _rb.AddForce(Vector2.down * 12.0f, ForceMode2D.Impulse);
 
-                    if (--_poisonHP < 0)
+                    if (--_hitPoints < 0)
                     {
                         ElfExplode();
                     }
@@ -225,6 +232,47 @@ public class Elf : MonoBehaviour {
         _poisonTimer = 0.0f;
 
         _sprtRend.color = _poisonStabColor;
+
+        _rb.AddForce(Vector2.up * 7.0f, ForceMode2D.Impulse);
+    }
+
+    private void UpdateSpiked()
+    {
+        if (_spikeStab)
+        {
+            _spikeTimer += Time.fixedDeltaTime;
+            _sprtRend.color = _spikeStabColor;
+            if (_spikeTimer > (_spikeTick / 5.0f))
+            {
+                _rb.AddForce(Vector2.down * 12.0f, ForceMode2D.Impulse);
+
+                _hitPoints -= 2;
+                if (_hitPoints < 0)
+                {
+                    ElfExplode();
+                }
+                else
+                {
+                    _spikeStab = false;
+                    _spikeTimer = 0.0f;
+
+                    _sprtRend.color = Color.white;
+
+                    if (_tarred)
+                    {
+                        Tar();
+                    }
+                }
+            }
+        }
+    }
+
+    public void SpikeStab()
+    {
+        _spikeStab = true;
+        _spikeTimer = 0.0f;
+
+        _sprtRend.color = _spikeStabColor;
 
         _rb.AddForce(Vector2.up * 7.0f, ForceMode2D.Impulse);
     }
