@@ -59,5 +59,13 @@ public class LevelAudioController : MonoBehaviour {
         audio[10].volume = .7f;
         audio[11].volume = .3f;
         audio[12].volume = .4f;
+
+
+        /*Mutes all audio sources*/
+        //for (int i = 0; i < audio.Length; i++)
+        //{
+        //    audio[i].mute = true;
+        //}
+
     }
 }
