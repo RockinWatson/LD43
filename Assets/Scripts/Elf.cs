@@ -9,7 +9,7 @@ public class Elf : MonoBehaviour {
     public GameObject ElfExit;
     public float Speed;
 
-    private bool _moveRight = true;
+    private bool _moveRight;
     private SpriteRenderer _sprtRend;
     private int _sfxPick;
 
@@ -44,6 +44,11 @@ public class Elf : MonoBehaviour {
         _sprtRend = GetComponent<SpriteRenderer>();
 
         _rb = this.GetComponent<Rigidbody2D>();
+    }
+
+    private void Start()
+    {
+        _moveRight = SetRandLefRight(0.5f);
     }
 
     // Update is called once per frame
@@ -168,6 +173,7 @@ public class Elf : MonoBehaviour {
         _tarred = false;
         _poisoned = false;
         _poisonHP = 3;
+        _moveRight = SetRandLefRight(0.5f);
 
         _sprtRend.color = Color.white;
     }
