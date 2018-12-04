@@ -107,6 +107,7 @@ public class Player : MonoBehaviour {
             if (_trapPlacement.GetBloodCost() > _bloodLevel)
             {
                 //@TODO: Error noise indicating not enough blood?
+                LevelAudioController.noCash.Play();
                 return;
             }
 
