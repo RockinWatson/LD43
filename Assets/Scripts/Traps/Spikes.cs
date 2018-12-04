@@ -15,16 +15,6 @@ public class Spikes : Trap {
         _colliders = new Collider2D[20];
     }
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     protected override void Activate()
     {
         base.Activate();

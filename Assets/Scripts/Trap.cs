@@ -20,6 +20,9 @@ public class Trap : MonoBehaviour {
         return _sprite;
     }
 
+    [SerializeField]
+    private float _lifeTime = 15.0f;
+
     private Rigidbody2D _rb = null;
 
     private bool _armed = false;
@@ -35,6 +38,18 @@ public class Trap : MonoBehaviour {
 
         //@TODO: Set to disabled to start.
         Disable();
+    }
+
+    virtual protected void Update()
+    {
+        if (IsArmed())
+        {
+            _lifeTime -= Time.deltaTime;
+            if (_lifeTime <= 0.0f)
+            {
+                Destroy(this.gameObject);
+            }
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
