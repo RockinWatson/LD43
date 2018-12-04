@@ -65,9 +65,9 @@ public class Trap : MonoBehaviour {
         _armed = false;
 
         //@TODO: Turn on half alpha.
-        Color preColor = _sprite.color;
-        preColor.a = 0.5f;
-        _sprite.color = preColor;
+        //Color preColor = _sprite.color;
+        //preColor.a = 0.5f;
+        //_sprite.color = preColor;
 
         //@TODO: Set layer to NOT DeadElf
         this.tag = "Untagged";

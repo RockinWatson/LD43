@@ -110,10 +110,12 @@ public class Player : MonoBehaviour {
             if(_trapPlacement.GetBloodCost() > _bloodLevel)
             {
                 trapColor = Color.red;
+                trapColor.a = 0.75f;
             }
             else
             {
                 trapColor = Color.white;
+                trapColor.a = 0.5f;
             }
             _trapPlacement.GetSpriteRenderer().color = trapColor;
         }
